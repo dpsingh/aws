@@ -62,6 +62,6 @@ def create(row):
     '''
 
 #input_file = csv.DictReader(open(sys.argv[1]))
-input_file = csv.DictReader(open("dev.csv"))
+input_file = csv.DictReader(open("ec2-tags.csv"))
 for row in input_file:
     create(row)
